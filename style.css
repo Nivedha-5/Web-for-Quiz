@@ -1,0 +1,148 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: content-box;
+}
+p
+{
+	font-size: 120%;
+	font-family: "Times New Roman", Times, serif;
+}
+.column {
+	width: 15%;
+	float: left;
+	padding: 18px;
+}
+.column a
+{
+   text-decoration: none;
+   padding: 13px;
+   color: #A52A2A;
+}
+.column :hover
+{
+	color: rgb(10,0,180);
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.column1 {
+	width: 15%;
+	float: left;
+	padding: 18px;
+}
+.column1 a
+{
+   text-decoration: none;
+   padding: 13px;
+   color: #A52A2A;
+}
+.column1 :hover
+{
+	color: rgb(10,0,180);
+}
+
+.row1::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.menu-bar
+{
+	background: rgb(200,0,2);
+	text-align: center;
+}
+.menu-bar ul
+{
+	display:inline-flex;
+	list-style:none;
+	color:#fff;
+}
+.menu-bar ul li
+{
+	width: 180px;
+	margin: 10px;
+	padding: 13px;
+}
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color: #fff;
+}
+.menu-bar ul li:hover
+{
+	background: rgb(180,0,0);
+	border-radius:3px;
+}
+.sub-menu-1
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,0,120);
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background:transparent;
+	border-radius: 0;
+	text-align: center;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: rgb(0,180,0);
+}
+.sub-menu-2
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-2
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,0,120);
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background:transparent;
+	border-radius: 0;
+	text-align: center;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child
+{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover
+{
+	color: rgb(0,180,0);
+}
